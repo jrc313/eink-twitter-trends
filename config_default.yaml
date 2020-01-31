@@ -1,0 +1,15 @@
+---
+
+twitter:
+  woeid: 28218
+
+renderer:
+  asset_path: ./assets
+  trend_font: NotoSans-Black.ttf
+  trend_font_size: 24
+  handle_font: NotoSans-Bold.ttf
+  handle_font_size: 14
+  tweet_font: NotoSans-CondensedMedium.ttf
+  tweet_font_size: 12
+  padding: 5
+  profile_image_size: 48
