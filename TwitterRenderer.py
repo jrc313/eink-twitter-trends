@@ -20,18 +20,18 @@ import settings
 class Renderer(object):
 
   def __init__(self):
-    self._InitDisplay()
-    self._LoadFonts()
-    self._InitBuffer()
-    self._InitProps()
+    self.__InitDisplay()
+    self.__LoadFonts()
+    self.__InitBuffer()
+    self.__InitProps()
   
-  def _InitDisplay(self):
+  def __InitDisplay(self):
     self.epd = epd2in13_V2.EPD()
-    self._ClearDisplay()
+    self.__ClearDisplay()
     self.screen_width = self.epd.height
     self.screen_height = self.epd.width
 
-  def _LoadFonts(self):
+  def __LoadFonts(self):
     self.trend_font = ImageFont.truetype(
       os.path.join(settings.RENDERER_ASSET_PATH, settings.RENDERER_TREND_FONT_NAME),
       settings.RENDERER_TREND_FONT_SIZE)
@@ -42,11 +42,11 @@ class Renderer(object):
       os.path.join(settings.RENDERER_ASSET_PATH, settings.RENDERER_TWEET_FONT_NAME),
       settings.RENDERER_TWEET_FONT_SIZE)
 
-  def _InitBuffer(self):
+  def __InitBuffer(self):
     self.buffer = Image.new("1", (self.screen_width, self.screen_height), 255)
     self.draw = ImageDraw.Draw(self.buffer)
 
-  def _InitProps(self):
+  def __InitProps(self):
     self.padding = settings.RENDERER_PADDING
     self.profile_image_size = settings.RENDERER_PROFILE_IMAGE_SIZE
     self.profile_image_x = self.padding
@@ -55,23 +55,23 @@ class Renderer(object):
     self.text_x = self.profile_image_size + (self.padding * 2)
     self.text_y = self.padding
 
-  def _ClearBuffer(self):
+  def __ClearBuffer(self):
     self.draw.rectangle((0, 0, self.screen_width, self.screen_height), fill = 255)
 
-  def _RenderBuffer(self):
+  def __RenderBuffer(self):
     self.epd.displayPartial(self.epd.getbuffer(self.buffer))
 
-  def _ClearDisplay(self):
+  def __ClearDisplay(self):
     self.epd.init(self.epd.FULL_UPDATE)
     self.epd.Clear(0xFF)
 
-  def _InitPartialUpdate(self):
+  def __InitPartialUpdate(self):
     self.epd.displayPartBaseImage(self.epd.getbuffer(self.buffer))
     self.epd.init(self.epd.PART_UPDATE)
 
   
 
-  def _FormatTweetText(self, tweet):
+  def __FormatTweetText(self, tweet):
     text = tweet.text
     for url in tweet.urls:
         text = text.replace(url.url, "")
@@ -83,24 +83,24 @@ class Renderer(object):
     return text
 
   def RenderTrend(self, trend):
-    self._ClearBuffer()
-    self._InitPartialUpdate()
+    self.__ClearBuffer()
+    self.__InitPartialUpdate()
     trend_text = trend.name.upper()
     (twidth, theight) = self.draw.textsize(trend_text, self.trend_font)
     tx = int((self.screen_width - twidth) / 2)
     ty = int((self.screen_height - theight) / 2)
     self.draw.text((tx, ty), trend_text, font = self.trend_font, fill = 0)
-    self._RenderBuffer()
+    self.__RenderBuffer()
 
   def RenderTweet(self, tweet, profile_pic):
-    self._ClearBuffer()
+    self.__ClearBuffer()
     self.buffer.paste(profile_pic, (self.profile_image_x, self.profile_image_y))
-    text = u"@{0}\n{1}".format(tweet.user.screen_name, self._FormatTweetText(tweet))
+    text = u"@{0}\n{1}".format(tweet.user.screen_name, self.__FormatTweetText(tweet))
     self.draw.text((self.text_x, self.text_y), text, font = self.tweet_font, fill = 0)
-    self._RenderBuffer()
+    self.__RenderBuffer()
 
   def Shutdown(self):
-    self._ClearDisplay()
+    self.__ClearDisplay()
     epd2in13_V2.epdconfig.module_exit()
 
     
