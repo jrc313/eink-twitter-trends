@@ -2,14 +2,24 @@
 
 twitter:
   woeid: 28218
+  tweet_count: 5
+  tweet_mode: extended
+  full_size_profile_pic: yes
+
+flow:
+  trend_display_time: 1
+  author_display_time: 2
+  tweet_display_time: 3
+  tweet_image_display_time: 1
 
 renderer:
   asset_path: ./assets
   trend_font: NotoSans-Black.ttf
-  trend_font_size: 24
-  handle_font: NotoSans-Bold.ttf
+  trend_font_size: 200
+  handle_font: NotoSans-LightEmoji.ttf
   handle_font_size: 14
-  tweet_font: NotoSans-CondensedMedium.ttf
-  tweet_font_size: 12
+  tweet_font: NotoSans-LightEmoji.ttf
+  tweet_font_size: 14
   padding: 5
   profile_image_size: 48
+  tweet_text_width: 31

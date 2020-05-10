@@ -1,13 +1,6 @@
 import PIL
 from PIL import Image, ImageDraw, ImageFont
-import textwrap
-import html
-
-import sys
-import os
-
-import requests
-import io
+import textwrap, html, sys, os, requests, io, logging, time
 
 libdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'lib')
 if os.path.exists(libdir):
@@ -48,12 +41,8 @@ class Renderer(object):
 
   def __InitProps(self):
     self.padding = settings.RENDERER_PADDING
-    self.profile_image_size = settings.RENDERER_PROFILE_IMAGE_SIZE
-    self.profile_image_x = self.padding
-    self.profile_image_y = self.padding
-
-    self.text_x = self.profile_image_size + (self.padding * 2)
-    self.text_y = self.padding
+    self.profile_image_size = self.screen_height - (self.padding + settings.RENDERER_HANDLE_FONT_SIZE)
+    self.tweet_text_width = settings.RENDERER_TWEET_TEXT_WIDTH
 
   def __ClearBuffer(self):
     self.draw.rectangle((0, 0, self.screen_width, self.screen_height), fill = 255)
@@ -69,35 +58,83 @@ class Renderer(object):
     self.epd.displayPartBaseImage(self.epd.getbuffer(self.buffer))
     self.epd.init(self.epd.PART_UPDATE)
 
-  
-
-  def __FormatTweetText(self, tweet):
-    text = tweet.text
-    for url in tweet.urls:
-        text = text.replace(url.url, "")
-    text = text.replace(u"\n", u" ")
-    text = text.replace(u"\r", u"")
-    text = html.unescape(text)
-    text = " \n".join(textwrap.wrap(text, 30))
-    text += " "
+  def __FormatTweetText(self, text):
+    text = "      \n".join(textwrap.wrap(text, self.tweet_text_width))
+    text += "      "
     return text
+
+  def __InvertImage(self, image):
+    pixels = image.load()
+    (w, h) = image.size
+    for x in range(0, w):
+      for y in range(0, h):
+        pixels[x, y] = 255 - pixels[x, y]
+
+  def __RenderTextToWidth(self, text, font, width):
+    (tw, th) = self.draw.textsize(text, font)
+    text_image = Image.new("1", (tw, th), 0)
+    text_draw = ImageDraw.Draw(text_image)
+    text_draw.text((0, 0), "{0}   ".format(text), font = font, fill = 255)
+    text_image = text_image.crop(text_image.getbbox())
+    (tw, th) = text_image.size
+    text_image_height = int(th * (width / tw))
+    text_image = text_image.resize((width, text_image_height), resample = PIL.Image.BICUBIC)
+    self.__InvertImage(text_image)
+    return text_image
 
   def RenderTrend(self, trend):
     self.__ClearBuffer()
+    self.__ClearDisplay()
     self.__InitPartialUpdate()
     trend_text = trend.name.upper()
-    (twidth, theight) = self.draw.textsize(trend_text, self.trend_font)
-    tx = int((self.screen_width - twidth) / 2)
-    ty = int((self.screen_height - theight) / 2)
-    self.draw.text((tx, ty), trend_text, font = self.trend_font, fill = 0)
+    text_image = self.__RenderTextToWidth(trend_text, self.trend_font, self.screen_width)
+    (tw, th) = text_image.size
+    tx = 0
+    ty = int((self.screen_height - th) / 2)
+    self.buffer.paste(text_image, (tx, ty))
     self.__RenderBuffer()
 
-  def RenderTweet(self, tweet, profile_pic):
+  def RenderTweetAuthor(self, tweet, delay):
     self.__ClearBuffer()
-    self.buffer.paste(profile_pic, (self.profile_image_x, self.profile_image_y))
-    text = u"@{0}\n{1}".format(tweet.user.screen_name, self.__FormatTweetText(tweet))
-    self.draw.text((self.text_x, self.text_y), text, font = self.tweet_font, fill = 0)
+    profile_pic = tweet.profile_pic.resize((self.profile_image_size, self.profile_image_size), resample = PIL.Image.BICUBIC)
+    ix = int((self.screen_width - self.profile_image_size) / 2)
+    self.buffer.paste(profile_pic, (ix, 0))
+
+    handle = tweet.user
+    (tw, th) = self.draw.textsize(handle, self.handle_font)
+    tx = int((self.screen_width - tw) / 2)
+    ty = self.screen_height - th
+    self.draw.text((tx, ty), "{0}   ".format(handle), font = self.handle_font, fill = 0)
     self.__RenderBuffer()
+    time.sleep(delay)
+
+  def RenderTweetText(self, tweet, delay):
+    self.__ClearBuffer()
+    text = self.__FormatTweetText(tweet.text)
+    (tw, th) = self.draw.textsize(text, self.tweet_font)
+    self.draw.text((0, 0), text, font = self.tweet_font, fill = 0)
+    self.__RenderBuffer()
+    time.sleep(delay)
+    if th > self.screen_height:
+      self.__ClearBuffer()
+      ty = self.screen_height - th
+      self.draw.text((0, ty), text, font = self.tweet_font, fill = 0)
+      self.__RenderBuffer()
+      time.sleep(delay)
+
+  def RenderTweetImages(self, tweet, delay):
+    for image in tweet.images:
+      self.__ClearBuffer()
+      (iw, ih) = image.size
+      resized_ih = self.screen_height
+      resized_iw = int(iw * (resized_ih / ih))
+      image = image.resize((resized_iw, resized_ih), resample = PIL.Image.BICUBIC)
+      ix = int((self.screen_width - resized_iw) / 2)
+      iy = 0
+      logging.debug("Drawing image of size ({0}, {1}) to ({2}, {3})".format(resized_iw, resized_ih, ix, iy))
+      self.buffer.paste(image, (ix, iy))
+      self.__RenderBuffer()
+      time.sleep(delay)
 
   def Shutdown(self):
     self.__ClearDisplay()

@@ -1,7 +1,5 @@
-import TwitterApi
-import TwitterRenderer
-import time
-import logging
+import TwitterApi, TwitterRenderer
+import time, logging, settings
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -15,12 +13,13 @@ while (True):
 
     trends = api.GetTrends()
     for trend in trends:
+      tweets = api.GetTrendTweets(trend, settings.TWITTER_TWEET_COUNT)
       renderer.RenderTrend(trend)
-      time.sleep(1)
-      tweets = api.GetTrendTweets(trend)
+      time.sleep(settings.FLOW_TREND_DISPLAY_TIME)
       for tweet in tweets:
-        renderer.RenderTweet(tweet, api.GetProfilePicture(tweet, False))
-        time.sleep(3)
+        renderer.RenderTweetAuthor(tweet, settings.FLOW_AUTHOR_DISPLAY_TIME)
+        renderer.RenderTweetText(tweet, settings.FLOW_TWEET_DISPLAY_TIME)
+        renderer.RenderTweetImages(tweet, settings.FLOW_TWEET_IMAGE_DISPLAY_TIME)
 
   except IOError as e:
         logging.debug(e)
