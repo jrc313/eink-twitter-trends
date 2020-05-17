@@ -10,7 +10,7 @@ This application uses the Twitter API so you'll need a set of API Keys and Acces
 
 The application expects the following environment variables containing the Twitter API credentials:
 
-|                              |                             |
+|Environment Variable Name     |Description                  |
 |------------------------------|-----------------------------|
 |`TWITTER_CONSUMER_KEY`        |Twitter API key              |
 |`TWITTER_CONSUMER_SECRET`     |Twitter API secret key       |
