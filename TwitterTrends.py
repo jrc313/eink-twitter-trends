@@ -1,7 +1,7 @@
 import TwitterApi, TwitterRenderer
 import time, logging, settings
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.WARN)
 
 api = TwitterApi.Api()
 renderer = TwitterRenderer.Renderer()

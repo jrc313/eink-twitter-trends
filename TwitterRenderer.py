@@ -117,7 +117,7 @@ class Renderer(object):
     time.sleep(delay)
     if th > self.screen_height:
       self.__ClearBuffer()
-      ty = self.screen_height - th
+      ty = self.screen_height - (th + settings.RENDERER_PADDING)
       self.draw.text((0, ty), text, font = self.tweet_font, fill = 0)
       self.__RenderBuffer()
       time.sleep(delay)
