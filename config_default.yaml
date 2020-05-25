@@ -23,3 +23,5 @@ renderer:
   padding: 5
   profile_image_size: 48
   tweet_text_width: 31
+  text_scroll_speed: 0.8
+  fail_image_filename: ./assets/fail-image.png

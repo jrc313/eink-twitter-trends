@@ -34,3 +34,6 @@ RENDERER_TWEET_FONT_SIZE = config["renderer"]["tweet_font_size"].get(int)
 RENDERER_PADDING = config["renderer"]["padding"].get(int)
 RENDERER_PROFILE_IMAGE_SIZE = config["renderer"]["profile_image_size"].get(int)
 RENDERER_TWEET_TEXT_WIDTH = config["renderer"]["tweet_text_width"].get(int)
+RENDERER_TEXT_SCROLL_SPEED = config["renderer"]["text_scroll_speed"].get(float)
+
+FAIL_IMAGE_FILENAME = config["renderer"]["fail_image_filename"].get()
