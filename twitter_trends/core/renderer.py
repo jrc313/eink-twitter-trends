@@ -1,9 +1,8 @@
 import PIL
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 import textwrap, os
+from twitter_trends.settings import settings
 
-
-import settings
 
 MAX_COLOUR = 255
 IMAGE_MODE = "1"

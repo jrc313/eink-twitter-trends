@@ -1,8 +1,8 @@
-- !!python/object:twitter_trends.models.SimpleTrend
+- !!python/object:twitter_trends.core.models.SimpleTrend
   name: '#BIGFATTEST'
   query: '%23BIGFATEST'
   tweets:
-  - !!python/object:twitter_trends.models.SimpleTweet
+  - !!python/object:twitter_trends.core.models.SimpleTweet
     image_urls:
     - https://t.co/3oodF145XZ
     images: ''
@@ -10,7 +10,7 @@
     profile_pic_url: https://pbs.twimg.com/profile_images/968086146180886528/P_nvzGw__normal.jpg
     text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.'
     user: '@BBCSport'
-  - !!python/object:twitter_trends.models.SimpleTweet
+  - !!python/object:twitter_trends.core.models.SimpleTweet
     image_urls:
     - https://t.co/OABeewppRP
     images: ''

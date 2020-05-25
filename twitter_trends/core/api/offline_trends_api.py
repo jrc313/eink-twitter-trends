@@ -1,5 +1,5 @@
 import logging, yaml
-from twitter_trends.models import SimpleTrend, SimpleTweet
+from twitter_trends.core.models import SimpleTrend, SimpleTweet
 
 class OfflineTrendsApi(object):
 

@@ -1,4 +1,5 @@
-import time, settings, logging
+import time, logging
+from twitter_trends.settings import settings
 
 class Director(object):
 

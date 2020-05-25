@@ -1,6 +1,6 @@
-from waveshare_epd import epd2in13_V2
+from twitter_trends.screens.waveshare_epd import epd2in13_V2
 
-class EInkScreen(object):
+class EPaperScreen(object):
 
   def __init__(self):
     self.epd = epd2in13_V2.EPD()

@@ -1,0 +1,1004 @@
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#DailyBriefings'
+  query: '%23DailyBriefings'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1016004951112372225/opBYODbi_normal.jpg
+    text: 'As Churchillian as a cowards fart #DailyBriefings #Borishasfailedagain'
+    user: '@cononeilluk'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1016004951112372225/opBYODbi_normal.jpg
+    text: 'Cop out #DailyBriefings'
+    user: '@cononeilluk'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1242767676239417344/v_0Q7BBy_normal.jpg
+    text: "Oh there you are Prime Minister!      We\u2019d *almost* forgotten what\
+      \ you looked like \U0001F644  Cheers for showing up for work today \U0001F44D\
+      \U0001F3FB #DailyBriefings #TheresBoris"
+    user: '@AlexDaviesJones'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1016004951112372225/opBYODbi_normal.jpg
+    text: 'They''re trying to mute everybody ! #DailyBriefings'
+    user: '@cononeilluk'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1223920467150561281/_9ORcsco_normal.jpg
+    text: 'This daily briefing makes me want to set fire to something. And I studied
+      Buddhist compassion for years #DailyBriefings'
+    user: '@richard_littler'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#borisspeech'
+  query: '%23borisspeech'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1239899972776099844/nUqlKI7w_normal.jpg
+    text: "Nobody is listening, Steve.   We\u2019re all still in shock at the biggest\
+      \ display of \u201Cup yours\u201D seen on live tv since forever.   #borisspeech"
+    user: '@debsylee'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1257621541841494017/Ua6tIv74_normal.jpg
+    text: 'Child care difficulties? Welcome to the world of single parenting, mate!
+      This Prime Minister has routinely undermined help for children in this country,
+      and savaged single parents, suddenly cares about childcare. #borisspeech'
+    user: '@SoniaPoulton'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1116709436003741696/MD9yq5gz_normal.png
+    text: '#borisspeech I''m very interested in international coordination of response
+      to #COVID19.  However, getting "member of public" Penny to ask that as 1st question
+      - doubt that''s top of the public''s concerns today.  Cracks showing in the
+      spin'
+    user: '@natalieben'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/EthCnHoArl
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1195277250217807872/dlxoXVnM_normal.jpg
+    text: 'The UK''s coronavirus death toll has increased by 118 over the past 24
+      hours. Prime Minister Boris Johnson said the latest toll now stood at 36,793
+      ? #dailybriefings #borisspeech '
+    user: '@DailyMirror'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#dominiccummimgs'
+  query: '%23dominiccummimgs'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/915081489573974016/esP5WVn-_normal.jpg
+    text: "Outraged because #dominiccummimgs followed his heart whilst you followed\
+      \ the herd.   You are the fools. You were desperate to be compliant. You locked\
+      \ down for no reason. If you missed visiting loved ones for this, it\u2019s\
+      \ because you are sheeple  Heart. Not herd. #dominiccummimgs"
+    user: '@KTHopkins'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1228097099767652358/h7aoBMIO_normal.jpg
+    text: "I was half asleep making coffee and initially didn\u2019t register what\
+      \ Jonathan Haslam - Conservative director of communications at no.10 under John\
+      \ Major - was saying on TV. So I filmed it. Won\u2019t bother tweeting about\
+      \ this anymore as Haslam sums it up perfectly #dominiccummimgs https://t.co/ndFOWraTLE"
+    user: '@omid9'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1133727162601750529/iDQFkweN_normal.jpg
+    text: "Led By Donkeys just did something no PR agent could have done  They\u2019\
+      ve made the British public side with #dominiccummimgs   If there\u2019s one\
+      \ thing ordinary folk despise it is aggressive Lefties harassing people at home\
+      \  Brexit taught them nothing! "
+    user: '@MartinDaubney'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/915081489573974016/esP5WVn-_normal.jpg
+    text: 'Watching the media and London elite pleasure themselves into a vinegary
+      froth over #dominiccummimgs is a timely reminder of the vast gulf between THEM
+      and US   Media, remainers, London VERSUS decent Brits in the Rest of the U.K.   #QuarantineLondon'
+    user: '@KTHopkins'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1264317106151198720/97b1psrG_normal.jpg
+    text: "What most people will find deeply offensive about this #GrantShapps interview\
+      \ is that after all the sacrifices he\u2019s telling us that we misunderstood\
+      \ the rules. He\u2019s trying to gaslight the country collectively live on tv.\
+      \ And we\u2019re not falling for it. #Ridge #dominiccummimgs"
+    user: '@MrJohnNicolson'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Werner
+  query: Werner
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/szS9EtQeFq
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1003913979448741888/FSzCtZWH_normal.jpg
+    text: "Timo Werner with his 22nd Bundesliga goal of the season \U0001F4A5 "
+    user: '@brfootball'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1154372763047596032/Ob-a_dnE_normal.jpg
+    text: "\u274C Allez, si  Timo Werner ne marque pas face \xE0 Mayence, Unibet vous\
+      \ offre 5 X 20\u20AC de Freebets parmi les RT \U0001F4B8  #M05RBL"
+    user: '@UnibetFrance'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/964533060942299136/XCPfJNxf_normal.jpg
+    text: GOAL! Liverpool's Timo Werner gives Leipzig the lead.
+    user: '@paddypower'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/5DlfkX0Gu2
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1003913979448741888/FSzCtZWH_normal.jpg
+    text: "Hat-trick \U0001F3A9  Liverpool see you, Timo Werner. "
+    user: '@brfootball'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/5Y9VmSL7My
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1226878666388443136/n5AxFVtM_normal.jpg
+    text: "Timo Werner\u2019s Bundesliga record by season for RB Leipzig:  2016/17:\
+      \ 31 games, 21 goals 2017/18: 32 games, 13 goals 2018/19: 30 games, 16 goals\
+      \ 2019/20: 27 games, 22 goals  A new personal best. "
+    user: '@Squawka'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#JohnsonOut'
+  query: '%23JohnsonOut'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1080468818592518144/WV67P5rL_normal.jpg
+    text: '#JohnsonOut'
+    user: '@aaronsidwell'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: The PM
+  query: '%22The+PM%22'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1177722632126500870/IISklnEF_normal.jpg
+    text: 'This is becoming humiliating for the PM. How much longer can it last? '
+    user: '@PaulBrandITV'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/890612516749008896/l1VddgSQ_normal.jpg
+    text: Ok all. The PM makes it clear. By STAY AT HOME they meant DO WHATEVER WORKS
+      FOR YOU. This is a sickening insult to those who stayed away from dying relatives
+      and mourned alone.
+    user: '@RebeccaFront'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/eMGWzNGVvn
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/817977303242133505/jSSyMKvf_normal.jpg
+    text: 'Chief of Defence Staff Gen Bipin Rawat has started donating Rs 50,000 from
+      his salary to be deducted every month for the next one year to the PM CARES
+      fund created to battle the COVID-19 pandemic  Read @ANI Story |  '
+    user: '@ani_digital'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1208201577208651776/LIKxplmQ_normal.jpg
+    text: On substance, the PM basically just confirmed that the country has an excuse
+      to act as any "good father" (and presumably mother) would. Which is a much different
+      message to that hitherto. It could be said that an entire public health strategy
+      has been altered to save his ally.
+    user: '@lewis_goodall'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1208201577208651776/LIKxplmQ_normal.jpg
+    text: 'Clear way the PM could try and regain control of the situation: to appear
+      at the briefing this afternoon and explain the situation to the country and
+      lay out whatever he intends to do. Suspect whether he does so or not will depend
+      as to whether or not he knows what that is yet.'
+    user: '@lewis_goodall'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#Pressconference'
+  query: '%23Pressconference'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Led By Donkeys
+  query: '%22Led+By+Donkeys%22'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1122214946064994304/3GAu0lNE_normal.jpg
+    text: Clip here. The van is run by the group Led By Donkeys. https://t.co/0OZZpVcwOp
+    user: '@Tony_Diver'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1133727162601750529/iDQFkweN_normal.jpg
+    text: "Led By Donkeys just did something no PR agent could have done  They\u2019\
+      ve made the British public side with #dominiccummimgs   If there\u2019s one\
+      \ thing ordinary folk despise it is aggressive Lefties harassing people at home\
+      \  Brexit taught them nothing! "
+    user: '@MartinDaubney'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/d4g7agwxSZ
+    - https://t.co/d4g7agwxSZ
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/2125234617/gerry-030701cutsmall_2_normal.jpg
+    text: '#DominicCummimgs is a Con man. He has no morals & doesn''t give a damn
+      about Led by Donkeys. As the REAL power & brains behind the @BorisJohnson puppet
+      show, he is UNSACKABLE. Watch as it will all somehow get brushed under the carpet.
+      Mark my words on that. #Dominicsgoing #cummngs '
+    user: '@GerryGreek'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/378800000473915841/f4c15c48d4c460146333c79c3a152c40_normal.jpeg
+    text: Led By Donkeys should appear beside the definition of "own goal" in the
+      dictionary. https://t.co/CljolCRtnw
+    user: '@_HelenDale'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Leipzig
+  query: Leipzig
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/964533060942299136/XCPfJNxf_normal.jpg
+    text: GOAL! Liverpool's Timo Werner gives Leipzig the lead.
+    user: '@paddypower'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1154372763047596032/Ob-a_dnE_normal.jpg
+    text: "\U0001F590 Allez, si Leipzig gagne d'au moins 5 buts d'\xE9cart, Unibet\
+      \ vous offre 5 X 20\u20AC de Freebets parmi les RT \U0001F4B8  #M05RBL"
+    user: '@UnibetFrance'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/5Y9VmSL7My
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1226878666388443136/n5AxFVtM_normal.jpg
+    text: "Timo Werner\u2019s Bundesliga record by season for RB Leipzig:  2016/17:\
+      \ 31 games, 21 goals 2017/18: 32 games, 13 goals 2018/19: 30 games, 16 goals\
+      \ 2019/20: 27 games, 22 goals  A new personal best. "
+    user: '@Squawka'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/mfwNPEbPB2
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1003913979448741888/FSzCtZWH_normal.jpg
+    text: "11 mins: Werner \u26BD 23 mins: Poulsen \u26BD 36 mins: Sabitzer \u26BD\
+      \  Leipzig are tearing Mainz apart \U0001F525 "
+    user: '@brfootball'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/nuur5sBDcx
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1003913979448741888/FSzCtZWH_normal.jpg
+    text: "Leipzig have dropped 13 goals on Mainz in the Bundesliga this season. \
+      \ Timo Werner has six goals and three assists against them alone \U0001F92F "
+    user: '@brfootball'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Caroline Flack
+  query: '%22Caroline+Flack%22'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: The Prime Minister
+  query: '%22The+Prime+Minister%22'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1217487014121091072/azqu4HfB_normal.jpg
+    text: "We\u2019re now so beaten as a country that it\u2019s basically accepted\
+      \ by a lot of people that it\u2019s fine for the prime minister not to appear\
+      \ more than about once a week, in a crisis. Not lead, not front up to stuff,\
+      \ not put his head above the parapet, not do anything that\u2019s hard."
+    user: '@MarinaHyde'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1166349829381005312/rgDurQNe_normal.jpg
+    text: Big moment this. The Prime Minister is blatantly & demonstrably lying to
+      the British people on live television. Some poor souls will tug their forelocks
+      & welcome it, of course, but the gamble rests on all the previously supportive
+      people who can see it for what it is.
+    user: '@mrjamesob'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1150756359497015298/xXj2IfkW_normal.png
+    text: "\u201CThe country can\u2019t afford this nonsense, this pantomime, now\
+      \ and Dominic should go\u201D  Conservative MP Steve Baker calls for the Prime\
+      \ Minister's aide to resign, adding \u201Cevery day this goes on there\u2019\
+      ll be more and more questions\u201D   https://t.co/q0B5M9IlOd"
+    user: '@BBCPolitics'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/943090005723041792/2cjxINlJ_normal.jpg
+    text: "The Prime Minister plans to have China\u2019s involvement in the UK\u2019\
+      s infrastructure scaled down to zero by 2023 "
+    user: '@Telegraph'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1176906808243478530/Wc6jrwyM_normal.jpg
+    text: "The Prime Minister must come before the country at today\u2019s press conference\
+      \ to answer these very serious questions about his most senior adviser.  #Marr\
+      \ https://t.co/xn5QC7d4Ao"
+    user: '@NickTorfaen'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Ian Watson
+  query: '%22Ian+Watson%22'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Swarmz
+  query: Swarmz
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Integrity
+  query: Integrity
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1110141413646307329/MDOgdoiM_normal.png
+    text: "This has gone for too long. @BorisJohnson now has very serious questions\
+      \ to answer about his judgement and integrity. The Prime Minister cannot dodge\
+      \ scrutiny any longer. That\u2019s why I\u2019m calling for him to come out\
+      \ of hiding and face the press at today\u2019s conference."
+    user: '@Ianblackford_MP'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/822132273562714112/dasTMEWB_normal.jpg
+    text: "It's been a weird few years in UK politics, but things are now genuinely\
+      \ jaw-dropping. The government has decided to \u2013 and I don't know how else\
+      \ you can interpret it \u2013 risk the continued integrity of a lockdown which\
+      \ has saved many thousands of lives, to save one man's career."
+    user: '@peterwalker99'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/615510114447953920/_1c4TTMM_normal.jpg
+    text: "Trump\u2019s firing of four federal watchdogs is a direct attack on government\
+      \ integrity and a corruption disaster in the making.  Republicans in Congress\
+      \ should join with @MittRomney in denouncing it and immediately convene hearings. "
+    user: '@MikeBloomberg'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/929211861773496321/cOxDNqvp_normal.jpg
+    text: I've known Joe Biden for a decade now and I think he has the integrity and
+      the leadership to take us where we need to be, because where we are now is not
+      for everybody. We cannot sit idle by. We need to move forward in a way that
+      brings us all together.  -@amjoyshow @JoyAnnReid https://t.co/5iGvpFDGni
+    user: '@K_JeanPierre'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1121339995460120576/H5Fcq1tA_normal.jpg
+    text: 'Cheating scandal in poker going on that would make the Mike Postle scandal
+      look like a church service. Really hard to wrap my head around. I''m very disappointed
+      in many people. Some you would call poker heroes. 1 person/pro showed integrity
+      others failed miserably #POKER'
+    user: '@bp22'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Spineless
+  query: Spineless
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/dFImIN7DGL
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1246891552405893120/kJA05ON2_normal.jpg
+    text: "Hello \u2066@Twitter\u2069 people. Some excellent spreadsheet work done\
+      \ yesterday on the spineless nodding dog chart. Hope someone who can do this\
+      \ stuff is tracking all Tory MP statements and tweets now. "
+    user: '@campbellclaret'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1253431239165403138/MG7EQRiR_normal.jpg
+    text: "Trump\u2019s \u201CObamagate\u201D strategy, which spineless minions like\
+      \ Lindsey Graham are helping execute, doesn\u2019t seem like the best idea. "
+    user: '@alexkotch'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1212103496591216640/gqTZmGvO_normal.jpg
+    text: "If our nation is looking for a hero in these troubled times of widespread\
+      \ soft corruption, where our \u201Cleaders\u201D in media, government and business\
+      \ overwhelmingly spineless two-bit crooks, then this is our guy. #auspol #spine\
+      \ #conviction #truth #respect "
+    user: '@Anthony_Klan'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1101435751919771648/TlWTYHg5_normal.jpg
+    text: "Rotten spineless imbecile @BorisJohnson   50,000 dead but the rules don\u2019\
+      t apply to Dom  He must have a piss tape  He\u2019s wielding a lot of power\
+      \ over you   #useless #kompromat"
+    user: '@PaulWoolford'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Uncharted 2
+  query: '%22Uncharted+2%22'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Huw Jenkins
+  query: '%22Huw+Jenkins%22'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/fsmBIpQWLz
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1062782754318880770/FUHd5bZv_normal.jpg
+    text: 'Ex-Swansea chief Huw Jenkins is taking over Charlton | @reluctantnicko  '
+    user: '@TheSunFootball'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/1bRj1fcxa7
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1057959225094225921/rs5QSKFD_normal.jpg
+    text: 'Former Swansea City chairman Huw Jenkins is interested in buying Charlton
+      Athletic.  (via @reluctantnicko) '
+    user: '@TransferChanger'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Tom Harwood
+  query: '%22Tom+Harwood%22'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Prue
+  query: Prue
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1015607408931098625/8ZYHtw7R_normal.jpg
+    text: '@PrueLeith Prue, it''s very possible to be kind, and lovely, and generous-hearted
+      whilst still being wrong at the same time. I think you''re awesome but you''re
+      also wrong. He wasnt on death''s door, he was dancing to ABBA whilst others
+      weren''t allowed to go to their own teenage sons funeral.'
+    user: '@AliImdadBakes'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/8OnU3Jd9h9
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1235937623996272646/l60p8yhD_normal.jpg
+    text: 'Very disappointing that Prue Leith approves of such half baked excuses. '
+    user: '@TiernanDouieb'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1216443950455717890/1FXXuc6W_normal.jpg
+    text: '@PrueLeith Hi Prue, you might want to take a big sip of coffee and have
+      a look at this morning''s papers before responding to this tweet from yesterday'
+    user: '@sebpatrick'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1248588229105745920/HPUCzEWA_normal.jpg
+    text: "@PrueLeith Tone deaf to the British public as always, Prue.   It\u2019\
+      s not about one man. It\u2019s about the govt and their aides feeling they\u2019\
+      re above the rules, and by doing so undermining the entire lockdown messaging\
+      \ and ultimately costing lives.   But no, be nice to your privileged friends."
+    user: '@PositiveLad'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Kampl
+  query: Kampl
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/PEj3yDdwmW
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1237069283580162050/3e-0mHpb_normal.jpg
+    text: "#Bundesliga \U0001F1E9\U0001F1EA  \U0001F605 La reacci\xF3n de Werner cuando\
+      \ Kevin Kampl se le ha acercado para celebrar el gol  \U0001F440 \xA1MEME THIS!\
+      \ \U0001F440 "
+    user: '@sport'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1249554701768589312/oR9YCl-T_normal.jpg
+    text: "Una barbaridad lo que est\xE1 jugando Leipzig. Infinitamente superiores\
+      \ al Mainz 05. Vaya jugad\xF3n para poner el 0-4. El giro y el cambio de ritmo\
+      \ de Kampl. El taco de Nkuku. Y, para definir, Timo Werner en modo rematador\
+      \ de \xE1rea. Recital futbol\xEDstico en el domingo de Bundesliga."
+    user: '@InvictosSomos'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/842451416312512512/b2aC4QFn_normal.jpg
+    text: "\u270C\uFE0F for Timo Werner, 4\uFE0F\u20E3 for @RBLeipzig_EN   Kevin Kampl\
+      \ did it all to set this one up. \U0001F4AB https://t.co/6LWwa7oDub"
+    user: '@FOXSoccer'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1091317376900055042/PWpkm8WL_normal.jpg
+    text: "Mainz XI: M\xFCller; St.Juste, Niakhat\xE9, Bruma; Baku, Fernandes, Kunde,\
+      \ Aar\xF3n Mart\xEDn; Boetius; Onisiwo, Quaison.  RB Leipzig XI: Gul\xE1csi;\
+      \ Upamecano, Halstenberg, Klostermann; Sabitzer, Laimer, Nkunku, Kampl, Dani\
+      \ Olmo; Werner, Poulsen."
+    user: '@SquawkaNews'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/OABeewppRP
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1249554701768589312/oR9YCl-T_normal.jpg
+    text: "FT. Mainz 05 0-5 RB Leipzig.  \u2794 Recital del equipo de Nagelsmann.\
+      \ \u2794 HAT-TRICK de Timo Werner. \u2794 Poulsen: 1 gol y 2 asistencias (y\
+      \ eso que fall\xF3 un par incre\xEDbles). \u2794 Espect\xE1culo de la dupla\
+      \ Sabitzer/Kampl en zona medular. \u2794 D\xEDa de campo para Gul\xE1csi. \u2794\
+      \ Son TERCEROS. "
+    user: '@InvictosSomos'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Hull City
+  query: '%22Hull+City%22'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1201788581339111424/EKi9pdC0_normal.jpg
+    text: Hull City confirm two positive coronavirus tests following the first round
+      of testing in the Championship
+    user: '@SkySportsNews'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1263783948993417217/M7lltxlI_normal.jpg
+    text: "Hull City can confirm that two people have tested positive for COVID-19\
+      \ following the first round of testing at the training ground.  #hcafc |\_#theTigers"
+    user: '@HullCity'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/3oodF145XZ
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/968086146180886528/P_nvzGw__normal.jpg
+    text: 'Hull City have confirmed two individuals at the Championship club have
+      tested positive for coronavirus.   '
+    user: '@BBCSport'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1201786848776990720/TRPW3faO_normal.jpg
+    text: "\U0001F5E3\uFE0F \"Windassssssss\"   #OnThisDay in 2008, @DWindass10 fired\
+      \ his boyhood club Hull City in to the Premier League https://t.co/GQHMsySus9"
+    user: '@SkySports'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/DOJcfTiWLd
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/968086146180886528/P_nvzGw__normal.jpg
+    text: 'Hull City have confirmed two people at the club have tested positive for
+      coronavirus.   '
+    user: '@BBCSport'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Lord Lucan
+  query: '%22Lord+Lucan%22'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: timo
+  query: timo
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/szS9EtQeFq
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1003913979448741888/FSzCtZWH_normal.jpg
+    text: "Timo Werner with his 22nd Bundesliga goal of the season \U0001F4A5 "
+    user: '@brfootball'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1154372763047596032/Ob-a_dnE_normal.jpg
+    text: "\u274C Allez, si  Timo Werner ne marque pas face \xE0 Mayence, Unibet vous\
+      \ offre 5 X 20\u20AC de Freebets parmi les RT \U0001F4B8  #M05RBL"
+    user: '@UnibetFrance'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/5DlfkX0Gu2
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1003913979448741888/FSzCtZWH_normal.jpg
+    text: "Hat-trick \U0001F3A9  Liverpool see you, Timo Werner. "
+    user: '@brfootball'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/964533060942299136/XCPfJNxf_normal.jpg
+    text: GOAL! Liverpool's Timo Werner gives Leipzig the lead.
+    user: '@paddypower'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/5Y9VmSL7My
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1226878666388443136/n5AxFVtM_normal.jpg
+    text: "Timo Werner\u2019s Bundesliga record by season for RB Leipzig:  2016/17:\
+      \ 31 games, 21 goals 2017/18: 32 games, 13 goals 2018/19: 30 games, 16 goals\
+      \ 2019/20: 27 games, 22 goals  A new personal best. "
+    user: '@Squawka'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Section 28
+  query: '%22Section+28%22'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/ie8JTxkocV
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1253067195485126659/x5claxvX_normal.jpg
+    text: 'On the anniversary of the introduction of Section 28, the anti-trans ''LGB
+      Alliance'' claims that the LGBTQ rights movement "never demanded that society
+      change its laws, its activities and its language to accommodate us."  Where
+      do you even start! '
+    user: '@OwenJones84'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1190293776423669761/j_6IQ2JZ_normal.jpg
+    text: "It\u2019s been 32 years since the introduction of Section 28, the devastating\
+      \ legislation banning discussion of LGBT identities in schools. We\u2019ve come\
+      \ a long way since then but there is still more to do to ensure acceptance without\
+      \ exception for everyone in the LGBT community."
+    user: '@stonewalluk'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/875364846258225152/IlI2URdW_normal.jpg
+    text: 'On the anniversary of Section 28 coming into law, fears are growing that
+      history is repeating itself '
+    user: '@PinkNews'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/XZG1ja2U3y
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/836881958164647936/TuMA1Ptn_normal.jpg
+    text: '32 years ago today Section 28 was enacted. The law prevented local authorities
+      and schools from ''promoting'' homosexuality.  A generation of LGBT kids grew
+      up under that law, unable to reach out to their teachers, unable to get support.
+      The effects are still felt today. '
+    user: '@LGBTIScotland'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1216761545218252800/ea-oKYER_normal.jpg
+    text: 'Today marks 32 years since the introduction by the Conservatives of the
+      vile Section 28, enshrining discrimination into law and causing misery to LGBT+
+      people in Britain. '
+    user: '@charlotte2153'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: Harassment
+  query: Harassment
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1140052748257419265/OazLIxb5_normal.png
+    text: 'This crazy judge is not going to get away with his targeting and harassment   '
+    user: '@WayneDupreeShow'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1218707298920607745/88ZDVPbh_normal.png
+    text: "Under Betsy DeVos' standards, not even the biggest sexual abuse scandal\
+      \ in sports history \u2014 USA Gymnastics doctor Larry Nassar's abuse of hundreds\
+      \ of gymnasts, including Michigan State students \u2014 would need to be investigated. "
+    user: '@ACLU'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1253473893706346497/Is-AybxB_normal.jpg
+    text: 'This is nothing but harassment by Congress! #ISupportTajinderBagga '
+    user: '@MODIfiedVikas'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1110426165670363136/2ZyuJzHc_normal.jpg
+    text: "Our prime minister Aabe   PRIME MINISTER HARASSMENT\U0001F62D  same situation. "
+    user: '@katsuyatakasu'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/wNXGn8TbRD
+    - https://t.co/wNXGn8TbRD
+    - https://t.co/wNXGn8TbRD
+    - https://t.co/wNXGn8TbRD
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1211274521099096064/0i86noPZ_normal.jpg
+    text: 'This is who President Trump just quote-tweeted urging you further investigate
+      the conspiracy theory that Joe Scarborough murdered a staffer.  '
+    user: '@MattGertz'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#sackboris'
+  query: '%23sackboris'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1244391272728723457/qyt_Lz7g_normal.jpg
+    text: 'Boris has to go. The country can see the hypocrisy, ask any family or loved
+      one who lost someone and couldn''t visit. Ask anyone who has a cancer and cannot
+      see or visit. Ask anyone who has health problems or over 75 and COULD NOT VISIT.
+      #SackBoris #sackcummimgs'
+    user: '@luisaomielan'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#ToriesLiePeopleDie'
+  query: '%23ToriesLiePeopleDie'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#FlowWithMe'
+  query: '%23FlowWithMe'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#12YearsWithSHINee'
+  query: '%2312YearsWithSHINee'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#sundayvibes'
+  query: '%23sundayvibes'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1255412294797996032/GoyXHAjL_normal.jpg
+    text: "So prognostic\U0001F447. This is what you could not see in media as our\
+      \ media don\u2019t show the imp & relevant things.   In this video Shri @RahulGandhi\
+      \ is speaking to media at Parliament on March 12 about Coronavirus & it\u2019\
+      s adverse impact on our economy.  Pl share ur views. #sundayvibes https://t.co/ceINgSak42"
+    user: '@VineetPunia'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/9UJ4mhZ7zJ
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1003932185735331840/CHEjcqX__normal.jpg
+    text: "#SundayVibes \U0001F4F7\_\xA9 Queen Productions Ltd. "
+    user: '@freddie_mercury'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1245713246650236928/pyyKS3e9_normal.jpg
+    text: 'Becalmed #SundayVibes https://t.co/LINJZGUWuS'
+    user: '@SeaOfThieves'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1263544288496939008/SmweorJa_normal.jpg
+    text: "This anganwadi worker who earns around Rs 10,500 a month, distributed the\
+      \ ration to poor families and fed workers who were journeying home on foot during\
+      \ the lockdown.   #SalutingOurSisters\U0001F44F\U0001F3FB  #SundayVibes   "
+    user: '@MahilaCongress'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/nZK8VxB5V1
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1215235155033559041/nF0gTNDf_normal.png
+    text: 'IN THE SKY TONIGHT!  Mercury and Venus in the west with the faintest slither
+      of the Moon 2 x Space Station passes. 2 x HTV-9 Supply Ship passes And a Starlink
+      4 pass  Follow @VirtualAstro for alerts and visit  for times and info.  #sundayvibes
+      #Lockdown '
+    user: '@VirtualAstro'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#NoConfidence'
+  query: '%23NoConfidence'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#UKGoverment'
+  query: '%23UKGoverment'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#ToryHypocrites'
+  query: '%23ToryHypocrites'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#M05RBL'
+  query: '%23M05RBL'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1154372763047596032/Ob-a_dnE_normal.jpg
+    text: "\u274C Allez, si  Timo Werner ne marque pas face \xE0 Mayence, Unibet vous\
+      \ offre 5 X 20\u20AC de Freebets parmi les RT \U0001F4B8  #M05RBL"
+    user: '@UnibetFrance'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1154372763047596032/Ob-a_dnE_normal.jpg
+    text: "\U0001F590 Allez, si Leipzig gagne d'au moins 5 buts d'\xE9cart, Unibet\
+      \ vous offre 5 X 20\u20AC de Freebets parmi les RT \U0001F4B8  #M05RBL"
+    user: '@UnibetFrance'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/vAvIsf4jno
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1032653393075036160/XVTfS1iP_normal.jpg
+    text: "Hat-trick \u2714\uFE0F  #M05RBL 0-5 "
+    user: '@Bundesliga_EN'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/MhNFc7pafT
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1032653393075036160/XVTfS1iP_normal.jpg
+    text: "Say hello to two-goal Timo \U0001F44B  #M05RBL 0-4 "
+    user: '@Bundesliga_EN'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/rH3Y0IIEWL
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1200020032148922371/V1Ylo0b7_normal.png
+    text: "With 22 goals, Timo Werner has just set a new personal best for goals in\
+      \ a single Bundesliga season \U0001F64C  #M05RBL "
+    user: '@goal'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#ResignBoris'
+  query: '%23ResignBoris'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#PansexualVisibilityDay'
+  query: '%23PansexualVisibilityDay'
+  tweets:
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/OczMTKHFPo
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1186103760499695616/8ipOG2uu_normal.jpg
+    text: "Happy #PansexualVisibilityDay, a day for pansexual people to be seen, heard\
+      \ and loved.   \U0001F497\U0001F49B\U0001F499 "
+    user: '@glaad'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1116062042027384832/t-VxANUY_normal.jpg
+    text: "As we celebrate #PansexualVisibilityDay today, @HRC is here to provide\
+      \ a quick rundown on pansexual, bisexual, queer and fluid identities. \u2935\
+      \uFE0F https://t.co/ufXGSB1t93"
+    user: '@HRC'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/PbI1hxr4PZ
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/949384345176936454/1uNFf-9v_normal.jpg
+    text: "\U0001F9D1\u200D\U0001F3EB Pansexual: describe a alguien que tiene el potencial\
+      \ de atracci\xF3n emocional, rom\xE1ntica o sexual hacia personas de cualquier\
+      \ g\xE9nero, aunque no necesariamente de forma simult\xE1nea, de la misma manera\
+      \ o en el mismo grado. \U0001F496\U0001F49B\U0001F499   #PansexualVisibilityDay "
+    user: '@ItGetsBetterMx'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls: []
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1116062042027384832/t-VxANUY_normal.jpg
+    text: '"Discovering my pansexuality meant discovering my self worth...It not only
+      brought me community, but a sense of self confidence I had been missing. Pan
+      people are real, visible and here to stay." - @HRC''s Tucker Hull #PansexualVisibilityDay '
+    user: '@HRC'
+  - !!python/object:twitter_trends.core.models.SimpleTweet
+    image_urls:
+    - https://t.co/8qAxZbBwfE
+    images: ''
+    profile_pic: ''
+    profile_pic_url: https://pbs.twimg.com/profile_images/1048117181270175744/427YUwIs_normal.jpg
+    text: 'Today is #PansexualVisibilityDay. Confused about what pansexual or panromantic
+      means? Not sure what the difference is between pansexual and bisexual?  We''ve
+      put together this handy guide for you!   '
+    user: '@LGBTfdn'
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#lockdownover'
+  query: '%23lockdownover'
+  tweets: []
+- !!python/object:twitter_trends.core.models.SimpleTrend
+  name: '#puppet'
+  query: '%23puppet'
+  tweets: []

@@ -5,6 +5,7 @@ twitter:
   tweet_count: 5
   tweet_mode: extended
   full_size_profile_pic: yes
+  tweet_age_days: 5
 
 flow:
   trend_display_time: 1
@@ -13,7 +14,7 @@ flow:
   tweet_image_display_time: 1
 
 renderer:
-  asset_path: ./assets
+  asset_path: ./twitter_trends/resources
   trend_font: NotoSans-Black.ttf
   trend_font_size: 200
   handle_font: NotoSans-LightEmoji.ttf
@@ -24,4 +25,4 @@ renderer:
   profile_image_size: 48
   tweet_text_width: 31
   text_scroll_speed: 0.8
-  fail_image_filename: ./assets/fail-image.png
+  fail_image_filename: ./twitter_trends/resources/fail-image.png

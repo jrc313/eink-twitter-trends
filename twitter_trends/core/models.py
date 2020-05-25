@@ -1,5 +1,6 @@
-import settings, io, requests, logging, html
+import io, requests, logging, html
 from PIL import Image
+from twitter_trends.settings import settings
 
 class SimpleTrend(object):
 
@@ -9,17 +10,23 @@ class SimpleTrend(object):
   
   @staticmethod
   def from_trend(trend):
-    simpleTrend = SimpleTrend()
-    simpleTrend.name = trend.name
-    simpleTrend.query = trend.query
+    simple_trend = SimpleTrend()
+    simple_trend.name = trend.name
+    simple_trend.query = trend.query
+    return simple_trend
 
 class SimpleTweet(object):
 
-  def __init__(self, tweet, full_size_profile_picture):
+  def __init__(self):
     self.fullSizeProfilePic = settings.TWITTER_FULL_SIZE_PROFILE_PIC
 
   @staticmethod
   def from_tweet(tweet):
+    simple_tweet = SimpleTweet()
+    simple_tweet.init_from_tweet(tweet)
+    return simple_tweet
+
+  def init_from_tweet(self, tweet):
     tweet_mode = settings.TWITTER_TWEET_MODE
     self.profile_pic_url = self.__get_profile_picture_url(tweet.user.profile_image_url_https)
     self.image_urls = self.__get_image_urls(tweet)

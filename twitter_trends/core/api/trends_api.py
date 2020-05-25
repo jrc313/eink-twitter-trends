@@ -1,6 +1,7 @@
-import twitter, settings, logging
-from datetime import date
-from twitter_trends.models import SimpleTrend, SimpleTweet
+import twitter, logging
+from datetime import date, timedelta
+from twitter_trends.settings import settings
+from twitter_trends.core.models import SimpleTrend, SimpleTweet
 
 class TrendsApi(object):
 
@@ -12,6 +13,7 @@ class TrendsApi(object):
                                 tweet_mode = settings.TWITTER_TWEET_MODE,
                                 sleep_on_rate_limit = True)
         self.woeid = settings.TWITTER_WOEID
+        self.tweet_days = settings.TWITTER_TWEET_AGE_DAYS
         
 
     def get_trends(self):
@@ -19,6 +21,7 @@ class TrendsApi(object):
           yield SimpleTrend.from_trend(trend)
 
     def get_trend_tweets(self, trend, count):
-      today = date.today().strftime("%Y-%m-%d")
-      for tweet in self.api.GetSearch(term = trend.query, count = count, result_type = "popular", since = today):
+      search_since = date.today() - timedelta(days = self.tweet_days)
+      search_since_string = search_since.strftime("%Y-%m-%d")
+      for tweet in self.api.GetSearch(term = trend.query, count = count, result_type = "popular", since = search_since_string):
         yield SimpleTweet.from_tweet(tweet)
