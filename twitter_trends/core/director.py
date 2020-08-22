@@ -17,6 +17,7 @@ class Director(object):
       self.__render_frame(self.renderer.render_trend(trend), settings.FLOW_TREND_DISPLAY_TIME)
       for tweet in tweets:
         logging.info("Rendering tweet author: %s", tweet.user)
+        self.screen.clear()
         self.__render_frame(self.renderer.render_tweet_author(tweet), settings.FLOW_AUTHOR_DISPLAY_TIME)
         for textFrame in self.renderer.render_tweet_text(tweet):
           logging.info("Rendering tweet text frame")
