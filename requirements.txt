@@ -33,7 +33,7 @@ isort==5.2.2
 Jinja2==2.11.2
 jmespath==0.10.0
 lazy-object-proxy==1.5.1
-lxml==4.5.2
+lxml==4.6.2
 MarkupSafe==1.1.1
 mccabe==0.6.1
 numpy==1.19.1
