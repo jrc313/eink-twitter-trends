@@ -13,6 +13,7 @@ numpy = "*"
 pillow = "*"
 python-dotenv = "*"
 confuse = "*"
+urllib3 = ">=1.26.5"
 
 [requires]
 python_version = "3.7"
