@@ -18,4 +18,5 @@ elif args.test:
   test_app()
 
 else:
+  from twitter_trends.test_app import test_app
   test_app()

@@ -6,7 +6,7 @@ class OfflineTrendsApi(object):
     def __init__(self, yaml_filename):
       with open(yaml_filename, "r") as yaml_file:
         yaml_string = yaml_file.read()
-      self.trends = yaml.load(yaml_string)
+      self.trends = yaml.unsafe_load(yaml_string)
       #for trend in self.trends:
       #  for tweet in trend.tweets:
       #    tweet.download_images()
